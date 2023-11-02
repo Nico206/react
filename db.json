@@ -1,0 +1,48 @@
+{
+    "user":[
+        {
+            "id":1,
+            "nombre": "Jose",
+            "apellido": "Rosrgiuez",
+            "email": "jose@gmail.com",
+            "password": "12345678",
+            "rol": "Empleado"
+          
+        },
+        {
+            "id":2,
+            "nombre": "Marcos",
+            "apellido": "lopez",
+            "email": "Marcos@gmail.com",
+            "password": "123123",
+            "rol": "Cliente"
+          
+        }
+    ],
+    "ticket":[
+        {
+            "id": 1,
+            "tipodeticket": "Servicio al cliente",
+            "chat": "cliente: Necesito ayuda por que no tengo conexion a la pagina, empleado: Cuentanos desde cuando",
+            "estadoticket": "en proceso"
+
+        },
+        {
+            "id": 2,
+            "tipodeticket": "Reporte fallos",
+            "chat": "cliente: El equipo no prende",
+            "estadoticket": "espera"
+
+        },
+        {
+            "id": 3,
+            "tipodeticket": "Servicio al cliente",
+            "chat": "cliente: No sirve el internet, empleado: Apaga el equipo y vuelve a prenderlo",
+            "estadoticket": "Resuelto"
+
+        }
+    ]
+
+
+
+}

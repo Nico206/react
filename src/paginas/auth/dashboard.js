@@ -1,6 +1,6 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import '../../componentes/dashboard.css'
 const dashboard = ()=>{
     return (
 /* eslint-disable react/jsx-no-undef */

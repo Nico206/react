@@ -1,8 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import '../../componentes/login.css';
 const login = ()=>{
     return (
+      
 <div className="login-box">
   <div className="login-logo">
     <Link to ="{#}"><b>Iniciar </b>Sesion</Link>
